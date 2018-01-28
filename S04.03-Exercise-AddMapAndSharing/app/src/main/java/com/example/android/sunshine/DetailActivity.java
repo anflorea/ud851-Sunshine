@@ -43,6 +43,7 @@ public class DetailActivity extends AppCompatActivity {
         ShareCompat.IntentBuilder.from(this)
                 .setType(mimeType)
                 .setText(text)
+                .setChooserTitle("Share")
                 .startChooser();
     }
 
